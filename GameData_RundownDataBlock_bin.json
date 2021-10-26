@@ -125,12 +125,12 @@
           },
           "Descriptive": {
             "Prefix": "A",
-            "PublicName": "Floodways",
+            "PublicName": "Fake Floodways",
             "IsExtraExpedition": false,
             "ExpeditionDepth": 545,
             "EstimatedDuration": "Unknown",
             "ExpeditionDescription": "Floodways in lockdown, override required to allow further reconnaissance.\nUnknown ceiling dwelling biomass present. Prisoners failing to exercise caution will not be considered a loss.",
-            "RoleplayedWardenIntel": ">...\n>...[whispering] Crouch, move slowly, don't shine on them with your flashlight...\n<size=200%><color=red>>...[whispering] It's pulsating - don't move!</color></size>"
+            "RoleplayedWardenIntel": ">...\n>...[whispering] Crouch, move slowly, don't shine on them with your flashlight...\n<size=200%><color=purple>>...[whispering] It's pulsating - don't move!</color></size>"
           },
           "Seeds": {
             "BuildSeed": 0,
@@ -139,7 +139,7 @@
             "LightJobSeedOffset": 2
           },
           "Expedition": {
-            "ComplexResourceData": 36,
+            "ComplexResourceData": 27,
             "LightSettings": 55,
             "FogSettings": 20,
             "EnemyPopulation": 1,
@@ -147,7 +147,7 @@
             "ScoutWaveSettings": 3,
             "ScoutWavePopulation": 1
           },
-          "LevelLayoutData": 116,
+          "LevelLayoutData": 666,
           "MainLayerData": {
             "ZoneAliasStart": 61,
             "ZonesWithBulkheadEntrance": [],
