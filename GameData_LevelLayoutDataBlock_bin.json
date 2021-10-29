@@ -110731,7 +110731,128 @@
       "name": "bulkhead_2",
       "internalEnabled": true,
       "persistentID": 101
-    }
+    },
+    {
+    "name": "K-A1 spawn",
+    "persistentID": 666,
+    "Zones": [
+      {
+        "LocalIndex": 0,
+        "BuildFromLocalIndex": 0,
+        "SubComplex": 3,
+        "StartPosition": 0,
+        "StartExpansion": 1,
+        "ZoneExpansion": 3,
+        "SecurityGateToEnter": 0,
+        "StartPosition_IndexWeight": 0,
+        "ChainedPuzzleToEnter": 0,
+        "LightSettings": 0,
+        "SubSeed": 0,
+        "BulkheadDCScanSeed": 0,
+        "CustomGeomorph": "“Assets/AssetPrefabs/Complex/Tech/Geomorphs/geo_64x64_tech_destroyed_HA_02.prefab”",
+        "TurnOffAlarmOnTerminal": false,
+        "TerminalPuzzleZone": {
+          "LocalIndex": 0,
+          "SeedType": 0,
+          "TerminalIndex": 0,
+          "StaticSeed": 0
+        },
+        "CoverageMinMax": {
+          "x": 0,
+          "y": 0
+        },
+        "AltitudeData": {
+          "AllowedZoneAltitude": 0,
+          "ChanceToChange": 0
+        },
+        "ProgressionPuzzleToEnter": {
+          "PuzzleType": 0,
+          "PlacementCount": 0,
+          "CustomText": "",
+          "ZonePlacementData": []
+        },
+        "ActiveEnemyWave": {
+          "HasActiveEnemyWave": false,
+          "EnemyGroupInfrontOfDoor": 0,
+          "EnemyGroupInArea": 0,
+          "EnemyGroupsInArea": 0
+        },
+        "HealthMulti": 0,
+        "WeaponAmmoMulti": 0,
+        "ToolAmmoMulti": 0,
+        "DisinfectionMulti": 0,
+        "HealthPlacement": {
+          "Start": 0,
+          "Middle": 0,
+          "End": 0
+        },
+        "WeaponAmmoPlacement": {
+          "Start": 0,
+          "Middle": 0,
+          "End": 0
+        },
+        "ToolAmmoPlacement": {
+          "Start": 0,
+          "Middle": 0,
+          "End": 0
+        },
+        "DisinfectionPlacement": {
+          "Start": 0,
+          "Middle": 0,
+          "End": 0
+        },
+        "DisinfectionStationPlacements": [],
+        "ConsumableDistributionInZone": 0,
+        "BigPickupDistributionInZone": 0,
+        "ResourceContainerClustersInZone": 0,
+        "ForceBigPickupsAllocation": false,
+        "AllowResourceContainerAllocation": false,
+        "AllowSmallPickupsAllocation": false,
+        "EnemySpawningInZone": [],
+        "EnemyRespawning": false,
+        "EnemyRespawnCountMultiplier": 0,
+        "EnemyRespawnRequireOtherZone": false,
+        "EnemyRespawnRoomDistance": 0,
+        "EnemyRespawnTimeInterval": 0,
+        "EnemyRespawnExcludeList": [],
+        "ForbidTerminalsInZone": false,
+        "TerminalPlacements": [
+          {
+            "LocalLogFiles": [],
+            "StartingStateData": {
+              "StartingState": 0,
+              "PasswordProtected": false,
+              "GeneratePassword": false,
+              "Password": "",
+              "PasswordHintText": "",
+              "PasswordPartCount": 0,
+              "ShowPasswordLength": false,
+              "ShowPasswordPartPositions": false,
+              "TerminalZoneSelectionDatas": [],
+              "AudioEventEnter": 0,
+              "AudioEventExit": 0
+            },
+            "AreaSeedOffset": 0,
+            "MarkerSeedOffset": 0,
+            "PlacementWeights": {
+              "Start": 0,
+              "Middle": 0,
+              "End": 0
+            }
+          }
+        ],
+        "EventsOnEnter": [],
+        "HSUsInZone": 0,
+        "GeneratorClustersInZone": 0,
+        "PowerGeneratorPlacements": [],
+        "CorpsesInZone": 0,
+        "GroundSpawnersInZone": 0,
+        "CorpseClustersInZone": 0,
+        "HSUClustersInZone": 0,
+        "StaticSpawnDataContainers": []
+      }
+    ]
+  }
   ],
   "LastPersistentID": 155
 }

@@ -124,13 +124,13 @@
             "AllClearedSectors": 0
           },
           "Descriptive": {
-            "Prefix": "A",
-            "PublicName": "Fake Floodways",
+            "Prefix": "K",
+            "PublicName": "Test",
             "IsExtraExpedition": false,
             "ExpeditionDepth": 545,
             "EstimatedDuration": "Unknown",
             "ExpeditionDescription": "Floodways in lockdown, override required to allow further reconnaissance.\nUnknown ceiling dwelling biomass present. Prisoners failing to exercise caution will not be considered a loss.",
-            "RoleplayedWardenIntel": ">...\n>...[whispering] Crouch, move slowly, don't shine on them with your flashlight...\n<size=200%><color=purple>>...[whispering] It's pulsating - don't move!</color></size>"
+            "RoleplayedWardenIntel": ">...\n>...[whispering] Crouch, move slowly, don't shine on them with your flashlight...\n<size=200%><color=red>>...[whispering] It's pulsating - don't move!</color></size>"
           },
           "Seeds": {
             "BuildSeed": 0,
@@ -139,7 +139,7 @@
             "LightJobSeedOffset": 2
           },
           "Expedition": {
-            "ComplexResourceData": 27,
+            "ComplexResourceData": 3,
             "LightSettings": 55,
             "FogSettings": 20,
             "EnemyPopulation": 1,
@@ -152,28 +152,8 @@
             "ZoneAliasStart": 61,
             "ZonesWithBulkheadEntrance": [],
             "BulkheadDoorControllerPlacements": [
-              {
-                "ZoneIndex": 3,
-                "PlacementWeights": {
-                  "Start": 0.0,
-                  "Middle": 0.0,
-                  "End": 0.0
-                },
-                "AreaSeedOffset": 0,
-                "MarkerSeedOffset": 0
-              }
             ],
             "BulkheadKeyPlacements": [
-              [
-                {
-                  "LocalIndex": 1,
-                  "Weights": {
-                    "Start": 0.0,
-                    "Middle": 0.0,
-                    "End": 0.0
-                  }
-                }
-              ]
             ],
             "ObjectiveData": {
               "DataBlockId": 70,
@@ -181,7 +161,7 @@
               "ZonePlacementDatas": [
                 [
                   {
-                    "LocalIndex": 2,
+                    "LocalIndex": 1,
                     "Weights": {
                       "Start": 0.0,
                       "Middle": 0.0,
@@ -204,7 +184,7 @@
               ]
             }
           },
-          "SecondaryLayerEnabled": true,
+          "SecondaryLayerEnabled": false,
           "SecondaryLayout": 118,
           "BuildSecondaryFrom": {
             "LayerType": 0,
@@ -525,12 +505,20 @@
               ]
             ],
             "ObjectiveData": {
-              "DataBlockId": 99,
-              "WinCondition": 1,
+              "DataBlockId": 106,
+              "WinCondition": 0,
               "ZonePlacementDatas": [
                 [
                   {
                     "LocalIndex": 1,
+                    "Weights": {
+                      "Start": 0.0,
+                      "Middle": 0.0,
+                      "End": 0.0
+                    }
+                  },
+                  {
+                    "LocalIndex": 0,
                     "Weights": {
                       "Start": 0.0,
                       "Middle": 0.0,
